@@ -35,7 +35,7 @@ jobs:
 
     - name: Analysis news emotion
       run: |
-        python "Analysis-news-emotion.py"
+        python "Analysis news emotion.py"
 
     - name: Commit and Push Changes
       run: |
