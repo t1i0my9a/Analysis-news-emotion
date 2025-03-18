@@ -84,3 +84,4 @@ for continent, urls in RSS_FEEDS.items():
     #add 0 line
     plt.axhline(0, color = "black", linewidth = 1)
     plt.show()
+    plt.savefig("sentiment_analysis.png")#save image
