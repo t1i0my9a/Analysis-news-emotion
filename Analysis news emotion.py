@@ -83,5 +83,5 @@ for continent, urls in RSS_FEEDS.items():
     plt.title("Analysis emotion of grobal news by continent", fontsize = 16)
     #add 0 line
     plt.axhline(0, color = "black", linewidth = 1)
-    plt.show()
     plt.savefig("sentiment_analysis.png")#save image
+    plt.show()
