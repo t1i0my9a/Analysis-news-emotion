@@ -31,9 +31,9 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Run News Sentiment Analysis Script
+    - name: Analysis news emotion
       run: |
-        python "news-emotion-analysis.py"
+        python "Analysis news emotion.py"
 
     - name: Commit and Push Changes
       run: |
