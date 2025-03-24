@@ -45,7 +45,7 @@ jobs:
         git add sentiment_analysis.png 
         git add .
         git commit -m "Auto update news sentiment analysis" || echo "No changes to commit"
-        git push
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
     - name: Lint with flake8
       run: |
